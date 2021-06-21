@@ -1,0 +1,22 @@
+{
+  "name": "inventive-cli",
+  "version": "1.0.0",
+  "description": "a simple cli for inventiveLiu",
+  "main": "index.js",
+  "bin": {
+    "inventive": "./src/cli.js"
+  },
+  "scripts": {
+    "build": ""
+  },
+  "keywords": [],
+  "author": "inventiveLiu",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.1",
+    "ora": "^5.4.1"
+  }
+}
